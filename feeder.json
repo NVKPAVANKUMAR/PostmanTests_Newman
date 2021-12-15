@@ -1,0 +1,12 @@
+{
+    "runs": [
+        {
+            "collection": "tests/Poke-API.postman_collection.json",
+            "environment": "environment/PokeAPI.postman_environment.json"
+        },
+        {
+            "collection": "tests/RestfulBookerBVT.postman_collection.json",
+            "environment": "environment/Production.postman_environment.json"
+        }
+    ]
+}
