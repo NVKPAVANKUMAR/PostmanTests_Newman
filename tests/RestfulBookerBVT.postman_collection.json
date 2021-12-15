@@ -267,7 +267,7 @@
                                     "var jsonData = pm.response.json();",
                                     "",
                                     "pm.test(\"Response is not empty\", function () {",
-                                    "    pm.expect(jsonData).to.have.lengthOf(0);",
+                                    "    pm.expect(jsonData).to.not.have.lengthOf(0);",
                                     "});",
                                     "",
                                     "// use lodash map to get a flat array of all the returned booking ids",
